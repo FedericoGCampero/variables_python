@@ -36,5 +36,14 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
+from tkinter import N
+
+
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese su nombre completo")
+Nombre_y_Apellido=str(input())
+print("Su nombre en miúsculas es:",Nombre_y_Apellido.lower(),)
+print("Su nombre en mayúsculas es:",Nombre_y_Apellido.upper(),)
+print("Su nombre con la primera letra en mayúscula es:",Nombre_y_Apellido.capitalize(),)
+#capitalize() devuelve una copia de la cadena con la primera letra en mayúsculas. Lo anoto para recordarlo
